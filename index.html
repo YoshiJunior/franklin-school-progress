@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1d3557">
+  <title>Franklin School Progress</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="progress-card" aria-labelledby="title">
+      <p class="eyebrow">FRANKLIN PUBLIC SCHOOLS · WISCONSIN</p>
+      <h1 id="title">School year progress</h1>
+      <div class="progress-row">
+        <strong id="percentage" aria-live="polite">0%</strong>
+        <span id="days" class="days"></span>
+      </div>
+      <div class="progress-track" aria-label="School-year progress">
+        <div id="progressBar" class="progress-fill"></div>
+      </div>
+      <p id="message" class="message">Loading calendar…</p>
+      <p class="calendar-note">2026–27 · Aug 24, 2026 – May 28, 2027</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
